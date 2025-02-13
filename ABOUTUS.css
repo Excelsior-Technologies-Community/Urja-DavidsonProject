@@ -1,0 +1,261 @@
+.top-section {
+font-size: 0.9rem;
+background-color: #ffffff;
+}
+
+.top-section a {
+text-decoration: none;
+color: black;
+}
+.media-icon{
+margin-left:90px;
+}
+.iconstyle {
+margin-right: 60px;
+}
+.iconstyle i{
+padding-left: 10px;
+padding-right: 10px;
+color: black;
+}
+.iconstyle span{
+color: black;
+}
+.navborsty
+{
+ border-bottom: 1px solid #afaeae;
+}
+.navstyle{
+color: #ffffff !important;
+}
+.nav-link.active::after {
+content: '';
+position: absolute;
+left: 62.6%;
+bottom: 0;
+transform: translateX(-50%);
+width: 6%;
+height: 3px;
+background-color: #74d7e2;
+}
+.nav-link:hover::after{
+content: none !important;
+}
+.navlinksty{
+margin-right: -10px;
+}
+.navlinksty li{
+padding-left:20px;
+}
+.backgroundimg {
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('img/bg2.png') no-repeat center center/cover;
+height: 100vh;
+}
+.hero-section h1 {
+font-family:"Bellefair" ;
+font-size: 3.5rem;
+margin-bottom: 1rem;
+color: #60adc0;
+}
+.hero-section h2 {
+font-family: "Montserrat";
+font-size: 23px;
+margin-bottom: 1rem;
+}
+
+
+
+
+    
+    
+
+.vision-section {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+  }
+  .vision-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  .vision-description {
+    font-size: 16px;
+    color: #0c0b0b;
+    line-height: 1.8;
+  }
+
+
+
+
+    
+    
+.about-us-section {
+background-color: #f9f9f9;
+padding: 50px 20px;
+}
+.about-heading {
+color: rgb(102, 180, 180);
+font-size: 14px;
+font-weight: bold;
+letter-spacing: 1px;
+}
+.about-title {
+font-size: 32px;
+font-weight: bold;
+color: #222;
+margin-bottom: 20px;
+}
+.about-description {
+font-size: 16px;
+color: #0c0b0b;
+line-height: 1.8;
+text-align: justify;
+}
+.stats-section {
+    padding-top: 30px;
+    margin-right:90px;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+.stats-section .rightline{
+    border-right: 1px solid #000000;
+}
+.stats-section .leftpadding{
+    padding-left: 35px;
+}
+.stats-section h3 {
+    font-size: 2rem;
+    color: #000000;
+    text-align: left;
+}
+.stats-section p {
+    font-size: 1rem;
+    color: #000000;
+    text-align: left;
+}
+.aboutimg{
+    height: 400px;
+    width: 600px;
+    padding-left: 20px;
+}
+.testimonial-section {
+    background: linear-gradient(to right, #0d1b2a, #1b263b);
+    color: white;
+    padding: 50px 0;
+    position: relative;
+}
+.testimonial-section::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: 0;
+    height: 60%;
+    width: 2px;
+    background-color: #00b4d8; 
+}
+.section-title1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-title1 h2 {
+    font-weight: bold;
+    color: #ffffff;
+}
+.testimonial-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+.testimonial-card img{
+    padding-bottom: 20px;
+}
+.testimonial-card .quote-icon {
+    font-size: 40px;
+    color: #00b4d8;
+}
+.testimonial-card p {
+    font-style: italic;
+    color: #333;
+}
+.testimonial-card .author {
+    margin-top: 15px;
+    color: #00b4d8;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.gallery-section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+  }  
+  .gallery-left1 {
+    padding-top: 100px;
+    width: 40%;
+    margin-left: 10px;
+  }
+  .gallery-left1 h2 {
+    color: #4abebe;
+  }
+  .gallery-right1 {
+    margin-top: 100px;
+    font-size: 1rem;
+    width: 40%;
+    margin-right: 150px;
+    color: #504e4e;
+    font-family: "Montserrat";
+  }  
+  .gallery-title1 {
+    font-size: 1rem;
+    font-family: "Montserrat";
+  }
+  .gallery-paragraph1 {
+    font-family: "Bellefair";
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .gallery-container1 {
+    display: flex;
+    padding-top: 10px;
+  }
+  .gallery-box1 {
+    width: 30%;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 20px;
+  }
+  .gallery-container1 .gallery-box1 .bg1,
+  .gallery-container1 .gallery-box1 .bg2,
+  .gallery-container1 .gallery-box1 .bg3,
+  .gallery-container1 .gallery-box1 .bg4 {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+  }  
+  .bg1 {
+    background: url('img/img-1.png') no-repeat center center/cover;
+  }
+  .bg2 {
+    background: url('img/img-2.png') no-repeat center center/cover;
+  }
+  .bg3 {
+    background: url('img/img-3.png') no-repeat center center/cover;
+  }
+  .bg4 {
+    background: url('img/img-1.png') no-repeat center center/cover;
+  }
